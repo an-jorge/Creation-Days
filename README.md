@@ -1,6 +1,6 @@
 # Linguagem C e Microcontrolador PIC
 
-Um **guia mensal de estudos** para aprender **C aplicado à electrónica e microcontroladores PIC**, dividido por semanas e tópicos. O plano abrange **4 semanas** com estudos diários organizados para desenvolver habilidade em programação C e sistemas embarcados.
+Um **guia mensal de estudos** para aprender **C aplicado à electrónica e microcontroladores PIC**, dividido por semanas e tópicos. O plano abrange **4 semanas** com estudos diários organizados para desenvolver habilidade em programação C, electronica e sistemas embarcados.
 
 
 | Semana | Tópico Geral             | O que Estudar                                                                                             | Actividades Práticas                                                                                          |
