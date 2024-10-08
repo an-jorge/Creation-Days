@@ -1,0 +1,23 @@
+<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-116,-56" rotation="0" hflip="-1" vflip="1" label="Led" idLabPos="-4.94659,-22.5583" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" Links="Led-2," />
+
+<item itemtype="Resistor" CircId="Resistor-1" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,-172" rotation="0" hflip="1" vflip="1" label="Resistor-1" idLabPos="-16,-24" labelrot="0" valLabPos="-10.7808,-17.4266" valLabRot="0" Resistance="200 Ω" />
+
+<item itemtype="Ground" CircId="Ground-10" mainComp="false" Show_id="true" Show_Val="false" Pos="-12,-40" rotation="0" hflip="1" vflip="1" label="Ground" idLabPos="-16.3432,1.4791" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Battery" CircId="Battery-4" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-216,-116" rotation="-270" hflip="1" vflip="1" label="Battery-4" idLabPos="-18,-22" labelrot="0" valLabPos="-4.4733,10.9612" valLabRot="0" Voltage="9 V" Resistance="0.001 Ω" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-3" mainComp="false" ShowProp="Resistance" Show_id="true" Show_Val="true" Pos="-12,-116" rotation="90" hflip="1" vflip="1" label="Potentiometer" idLabPos="-30.0714,-44.4617" labelrot="0" valLabPos="-10.3972,-55.0069" valLabRot="0" Resistance="1 kΩ" Value_Ohm="45 Ω" Slider="false" Scale="1" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="Potentiometer-3-PinB" endpinid="Ground-10-Gnd" pointList="-12,-100,-12,-56" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Battery-4-lPin" endpinid="Resistor-1-lPin" pointList="-216,-132,-216,-172,-140,-172" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="Battery-4-rPin" endpinid="Led-2-rPin" pointList="-216,-100,-216,-56,-132,-56" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Led-2-lPin" endpinid="Potentiometer-3-PinM" pointList="-100,-56,-28,-56,-28,-116" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="Resistor-1-rPin" endpinid="Potentiometer-3-PinA" pointList="-108,-172,-12,-172,-12,-132" />
+
+</circuit>
